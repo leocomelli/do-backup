@@ -1,0 +1,15 @@
+diretorio.destino: /home/usuario/backup
+mysql.usuario: root
+mysql.senha: 123456
+mysql.bancos: [ bd1, rbd2 ]
+svn.dir: /var/svn
+email.smtp: smtp.server.com.br
+email.porta: 25
+email.dominio: server.com.br
+email.usuario: usuario
+email.senha: 123456
+email.de.nome: Backup Servidor Remoto
+email.de.endereco: de@server.com.br
+email.assunto: '[BKP] Backup Banco de Dados e SVN - '
+email.corpo: <h1>Verifique os arquivos em anexo!</h1>
+log.arquivo: /var/log/backup
