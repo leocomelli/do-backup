@@ -9,7 +9,7 @@ def init
   @data = Time.now.strftime("%d%m%Y_%H%M%S")
 
   log "***********************************************"
-  log "Iniciando backup #{Time.now.day}/#{Time.now.month}/#{Time.now.year}"
+  log "Iniciando backup #{@data}"
   log "***********************************************"
 end
 
